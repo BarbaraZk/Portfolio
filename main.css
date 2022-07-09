@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.App{
+    background-color: rgb(198, 155, 171);
+    min-height:100vh ;
+}
+nav{
+    display: flex;
+    height: 6.5vh;
+    background-color: rgb(198, 155, 171);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    text-decoration: none; 
+}
+.icons{ 
+    display: flex;
+    /* padding: 0 20px; */
+    align-items: center;
+}
+.icon-link{
+    color: white;
+    margin: 0 20px;
+    font-size: 3.5rem;
+}
+.icon-link:hover{
+    color: rgb(82, 51, 75);
+    transition: 1s;
+   
+}
+.email-link{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.email-link:hover{
+    color: rgb(82, 51, 75);
+    transition: 0.5s;
+    font-size: 28px;
+}
+section{
+    display: flex; 
+    background-color: black;
+    flex-basis: 100%;
+    height: 50vw;
+}
+aside{
+    width: 50%;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px 0;
+    margin: 60px 30px;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+aside span{
+    color: red;
+    font-size: 2.2vw;  
+    font-weight: 700;
+}
+main{
+    width: 50%;
+    display: flex;
+    padding: 10px 0;
+    margin: 60px 30px;
+    text-align: center;
+    justify-content: center; 
+}
+ main .image{
+    display: flex;
+    width: 60%;
+    height: 100%;
+ }
+
+ @media (max-width:760px ){
+    nav{
+        height: 5vh;
+    }
+    .icon-link{
+        font-size: 1.5rem;
+        margin: 0 8px;
+    }
+    .email-link{
+        font-size: 15px;
+        margin: 0 20px;
+    }
+    .email-link:hover{
+        font-size: 18px;
+    }
+    section{
+        flex-wrap: wrap;
+        min-height: 60vh;
+        justify-content:flex-start;
+        align-items: flex-start;
+        align-content:flex-start;
+    }
+    aside{
+        font-size: 2.5vw;
+        height: 10vh;
+        width: 100%;
+        padding:0;
+        margin:0;
+    }
+    aside span{
+        font-size: 3.5vw;  
+    }
+    main{
+        height: 50vh;
+        text-align: start;
+        width: 100%;
+        padding:0;
+        margin:0;
+    }
+    main.image{
+        width: 80%; 
+         
+    }
+ }
+
+
+ /* @media(max-width:760px){
+    section{
+        display: flex;
+        justify-content: flex-end;
+        height: 90vh;
+        flex-direction: column-reverse;
+        
+    }
+    main.image{
+        width: 100%;
+        padding: 10vw;
+        height: 50vh;
+    }
+ } */
+
