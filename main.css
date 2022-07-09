@@ -103,14 +103,14 @@ main{
         align-content:flex-start;
     }
     aside{
-        font-size: 2.5vw;
+        font-size: 4vw;
         height: 10vh;
         width: 100%;
         padding:0;
         margin:0;
     }
     aside span{
-        font-size: 3.5vw;  
+        font-size: 5.5vw;  
     }
     main{
         height: 50vh;
